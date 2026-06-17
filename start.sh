@@ -4,4 +4,4 @@
 nginx
 
 # Start Python app
-gunicorn -w 2 -b 0.0.0.0:8080 server:app
+gunicorn -w 2 -b 0.0.0.0:8080 app.server:app
